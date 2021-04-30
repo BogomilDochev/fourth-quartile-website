@@ -1,0 +1,27 @@
+.content{
+    text-align: center;
+    padding-top: 10px
+}
+
+.videos{
+    text-align: center;
+    padding:30px 6% 30px 6%;
+    display: inline-block;
+
+}
+
+.video-border{
+    border: 15px ridge #cceeff;
+}
+
+.hero-body{
+    background-color:   #cceeff;
+    background-size: cover
+}
+
+.images{
+    margin: 30px 6% 30px 6%;
+    width:320px;
+    height: 400px;
+    border: 15px ridge #cceeff;
+}
