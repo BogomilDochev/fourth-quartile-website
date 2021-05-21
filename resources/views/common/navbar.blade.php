@@ -20,7 +20,7 @@
 
             <a href="/videos"
                class="navbar-item {{ Request::path() === '/' ? "is-active" : "" }}">
-                Youtube videos
+                YouTube videos
             </a>
 
             <a href="/pictures"

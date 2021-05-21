@@ -7,7 +7,7 @@
                 Videos
             </p>
             <p class="subtitle">
-                Funny youtube videos
+                Funny YouTube videos
             </p>
         </div>
     </section>

@@ -15,7 +15,7 @@ class PictureController extends Controller
     public function index()
     {
         $pictures = Picture::latest()->get();
-//        abort(500);
+         abort(500);
         return view('pictures', ['pictures'=>$pictures]);
     }
 

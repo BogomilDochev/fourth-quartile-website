@@ -15,11 +15,20 @@
     <div class="alert alert-danger text-center">
         <h2 class="display-3">500</h2>
         <h3 class="display-5">Internal Server Error</h3>
-        <p class = 'display-5'>The server has been deserted for a while. We apologise for any inconvenience caused<br>
+        <p class = 'display-5'>We have an internal server problem. We apologise for any inconvenience caused.<br>
         What can you try?<br>
         Answer:<br>
-        -<u><a href="javascript:window.location.href=window.location.href">refresh the page</a></u><br>
-            -wait a few minutes
+        <div class="buttons" style="display: block">
+            <a class="button is-link" href="/">
+                <strong>Home page</strong>
+            </a>
+            <a class="button is-danger" href="javascript:history.back()">
+                <strong>Go back</strong>
+            </a>
+            <a id="button-color" class="button is-success" href="javascript:window.location.href=window.location.href">
+                <strong>Reload</strong>
+            </a>
+        </div>
     </div>
 </div>
 </body>
